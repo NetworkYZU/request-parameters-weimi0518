@@ -15,8 +15,12 @@
         lab4: 建立一個新的 servlet，怎麼改變 action 去對應？
         -->
        <form action="form1" method="POST"> <!-- # -> local -->
-            name: <input type="text" name="username"></input></br>
-            password: <input type="password" name="password"></input></br>
+            name: <input type="text" name="username"></input><br/>
+            password: <input type="password" name="password"></input><br/>
+            從哪得知的消息：<br/>
+            <input type="checkbox" name="source" value="web"></input>網站
+            <input type="checkbox" name="source" value="news"></input>新聞
+            <input type="checkbox" name="source" value="fb"></input>fb<br/>
             <input type="submit"/>
         </form>
     </body>
